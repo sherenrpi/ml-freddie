@@ -7,7 +7,6 @@ AI/ML models for Loan Risk Assessment
 ## Author:
 Natalya Sheremetyeva  
 Email: [natalya.sheremetyeva@gmail.com](mailto:natalya.sheremetyeva@gmail.com)  
-Date: `Today’s date`
 
 ---
 
