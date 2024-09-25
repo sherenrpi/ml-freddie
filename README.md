@@ -31,6 +31,9 @@ Loan classification models also help lenders meet regulatory requirements and re
 
 The goal of this project is to predict whether a loan will perform well or become non-performing within the following two years. A loan is considered non-performing if it has a delinquency status of four months or more (CLDS = 4).
 
+Initially, the Zero Balance Code (ZBC) was considered as a target variable. However, since ZBC is only populated when a loan reaches a zero balance (e.g., paid off or defaulted), it does not provide an early warning signal. Therefore, CLDS was used as a proxy for default.
+
+Loans with CLDS = 4 provide a reliable separation between non-performing and matured loans. By choosing CLDS = 4 as the threshold for default, the model effectively distinguishes loans that will default from those that will mature.
 ![Comparison of Loan Performance by CLDS Value](./plots/240924_CLDS_Stats.png)  
 *Figure 1: The percentage of matured and default loans across different CLDS values (months delinquent). The CLDS=4 value offers a good separation between matured and default loans, as the gap between the two classes becomes substantial at that point, making it an effective threshold for defining non-performing loans.*
 
