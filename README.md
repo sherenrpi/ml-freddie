@@ -1,6 +1,3 @@
-# ml-freddie
-AI/ML models for Loan Risk Assessment
-
 # Machine Learning Models for Loan Classification Using Real World Data 
 [View the Full Project Documentation Here](./240924_ML_LoanPredictor_FreddieMacReport.pdf)
 
