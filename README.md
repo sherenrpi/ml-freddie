@@ -4,7 +4,6 @@
 
 ## Author:
 Natalya Sheremetyeva  
-Email: [natalya.sheremetyeva@gmail.com](mailto:natalya.sheremetyeva@gmail.com)  
 
 ---
 
