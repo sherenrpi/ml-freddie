@@ -59,3 +59,13 @@ To address this, SHAP (SHapley Additive exPlanations) values are one of the most
 
 ![SHAP summary plot](./plots/Tune_Top_Ten_SHAP_summary_plot.png)  
 *Figure 2: SHAP summary plot for the top ten most important features influencing the model's predictions.*
+
+
+
+---
+
+## Conclusion
+
+In summary, the XGBoost model performed well, achieving high accuracy in predicting loan performance. Over time, the model’s accuracy declined slightly due to changing market conditions, but this could be addressed by retraining the model periodically. The most important features for the model were CLDS, credit score, and current interest rate.
+
+---
