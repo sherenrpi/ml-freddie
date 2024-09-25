@@ -51,3 +51,11 @@ Loans with CLDS = 4 provide a reliable separation between non-performing and mat
 
 ---
 
+### Interpretability
+
+Interpretable models allow stakeholders to trust and act on the model’s outputs by providing transparency into which features drive predictions. While ML models like XGBoost are powerful and complex, their black-box nature can make it difficult to understand their decision-making process directly.
+
+To address this, SHAP (SHapley Additive exPlanations) values are one of the most widely adopted methods for explaining complex models like XGBoost. SHAP values assign each feature a contribution value for a particular prediction, helping to identify how much each feature influences the model’s output.
+
+![SHAP summary plot](./plots/Tune_Top_Ten_SHAP_summary_plot.png)  
+*Figure 1: SHAP summary plot for the top ten most important features influencing the model's predictions.*
