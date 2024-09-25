@@ -41,3 +41,15 @@ Loans with CLDS = 4 provide a reliable separation between non-performing and mat
 *Figure 1: The percentage of matured and default loans across different CLDS values (months delinquent). The CLDS=4 value offers a good separation between matured and default loans, as the gap between the two classes becomes substantial at that point, making it an effective threshold for defining non-performing loans.*
 
 ---
+
+## Model Performance
+
+| Data sets       | Training | Validation | Test           |Test           |Test           |Test           |Test           |
+|-----------------|----------|------------|----------------|----------------|----------------|----------------|----------------|
+| Year            | 1999-2011| 2012-2013  | 2014           |2015            |2016            |2017            |2018            |
+|-----------------|----------|------------|----------------|----------------|----------------|----------------|----------------|
+| ROC AUC         | 0.999    | 0.967      | 0.948     |0.946    |0.933    |0.931    |0.804    |
+|-----------------|----------|------------|----------------|----------------|----------------|----------------|----------------|
+
+---
+
